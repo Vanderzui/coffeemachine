@@ -1,2 +1,19 @@
 # Project exclude paths
 /.gradle/
+.idea/.gitignore
+.idea/checkstyle-idea.xml
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/modules/
+.idea/sonarlint/
+.idea/uiDesigner.xml
+.idea/vcs.xml
+build/
+src/main/java/org/vanderzui/cofeemachine/dao/
+src/main/java/org/vanderzui/cofeemachine/dto/
+src/main/java/org/vanderzui/cofeemachine/model/
+src/main/java/org/vanderzui/cofeemachine/util/
+src/main/resources/
+src/test/

@@ -5,6 +5,6 @@ public enum RecipeType {
     CAPPUCCINO,
     ESPRESSO,
     LATTE,
-    MILK,
+    MILK_RECIPE,
     HOT_WATER,
 }
