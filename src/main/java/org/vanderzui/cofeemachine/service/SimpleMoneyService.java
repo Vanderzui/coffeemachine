@@ -48,7 +48,7 @@ public class SimpleMoneyService implements MoneyService {
         int credit = bankEntity.getCredit();
         int result = credit - price;
         if (result < 0) {
-            throw new CoffeeMachineException("Enter more money, bitch!");
+            throw new CoffeeMachineException("Enter more money, please!");
         }
         updateBank(price);
         bankEntity.setCredit(result);
